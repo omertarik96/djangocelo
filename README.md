@@ -6,7 +6,7 @@ This repo aims to replicate [UH CELO](https://dev.azure.com/celocsuh/CELO) and a
 
 ## Student Dashboard
 
-[student-dashboard-view](https://i.imgur.com/14Lmdrb.png)
+![student-dashboard-view](https://i.imgur.com/14Lmdrb.png)
 
 # Instructions
 
