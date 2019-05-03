@@ -3,16 +3,10 @@
 This repo aims to replicate [UH CELO](https://dev.azure.com/celocsuh/CELO) and add more functionality using Python Django Framework.
 
 ### Table of Contents
-* [Resources](#resources)
 * [Current Views](#current-views)
-* [Instruction](#instructions)
+* [Setup Instructions](#instructions)
+* [Resources](#resources)
 
-
-## Resources <a name="resources"></a>
-Use these resources to learn more about the programming language and the framework that used in this project.
-- [Python 3](https://docs.python.org/3/)
-- [Django 2.2.1](https://docs.djangoproject.com/en/2.2/)
-- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
 # Current Views <a name="current-views"></a>
 
@@ -58,3 +52,9 @@ You can access the site using following URLs:
 Frontend: ``localhost:8000/``
 
 Admin Panel:``localhost:8000/admin/`` 
+
+## Resources <a name="resources"></a>
+Use these resources to learn more about the programming language and the framework that used in this project.
+- [Python 3](https://docs.python.org/3/)
+- [Django 2.2.1](https://docs.djangoproject.com/en/2.2/)
+- [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
