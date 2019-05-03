@@ -2,6 +2,12 @@
 
 This repo aims to replicate [UH CELO](https://dev.azure.com/celocsuh/CELO) and add more functionality using Python Django Framework.
 
+# Current Views
+
+## Student Dashboard
+
+[student-dashboard-view](https://i.imgur.com/14Lmdrb.png)
+
 # Instructions
 
 Make sure that you have Python3.6 installed in your computer. If not install it from [here](https://www.python.org/)
