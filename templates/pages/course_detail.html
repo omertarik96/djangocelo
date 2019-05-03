@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block content %}
+    <script type='text/javascript'>
+        $(document).ready(function () {
+            console.log("Jquery ready");
+            $("#menu-toggle").click(function () {
+                var sidebarWidth = $("#course-sidebar").css("width");
+                console.log(sidebarWidth);
+                if (sidebarWidth === "0px") {
+                    $("#course-sidebar").css("width", "250px");
+                    $("#menu-toggle").css("left", "243px");
+                    $(".course-detail-container").addClass("blur-filter");
+                    $("#sidebar-list").css("display", "block");
+                } else {
+                    $("#sidebar-list").css("display", "none");
+                    $("#course-sidebar").css("width", "0px");
+                    $("#menu-toggle").css("left", "-5px");
+                    $(".course-detail-container").removeClass("blur-filter");
+                }
+            });
+        });
+    </script>
+    <div class="bg-dark text-white" id="course-sidebar">
+        <div id="sidebar-list" class="text-right p-3">
+            <a href="#">Module 1</a>
+            <a href="#">Module 2</a>
+            <a href="#">Module 3</a>
+            <a href="#">Module 4</a>
+        </div>
+    </div>
+    <span id="menu-toggle" class="bg-dark p-2 text-white"><i class="fas fa-bars fa-2x"></i></span>
+    <div style="max-width: 920px; margin: 0 auto;" class="course-detail-container bg-white box-shadow">
+        <div class="course-detail-content p-5">
+            <h1>Course Detail</h1>
+            <p>
+                Condimentum dis ad sit cubilia curae; feugiat accumsan natoque. Sed felis etiam lorem ligula? Mollis
+                erat et vitae quis pulvinar convallis. Quisque tempor tempor ornare ad habitant orci vitae. Aliquet
+                lectus gravida sociosqu sapien rhoncus sociis. Facilisi nascetur urna erat curabitur laoreet
+                malesuada,
+                cubilia quis habitasse nullam. Metus felis id etiam leo ullamcorper ultricies! Ullamcorper volutpat
+                facilisis dictumst dapibus accumsan dignissim mus. Porta montes mauris turpis dui cubilia erat etiam
+                cras pellentesque fermentum primis iaculis. Quisque pellentesque luctus egestas quis adipiscing
+                vitae
+                dignissim ipsum netus ante. Vel primis volutpat ac a odio laoreet tortor montes augue.
+            </p>
+            <p>
+                Accumsan, gravida mi nisi. Elementum eget, ipsum potenti vitae feugiat. Primis neque potenti lacinia
+                purus mus auctor facilisi euismod! Donec pellentesque dolor dictumst mauris aliquam montes lobortis.
+                Mattis nullam suscipit suscipit metus lobortis habitasse proin maecenas taciti? Litora vulputate id
+                leo
+                quam fusce lacinia pellentesque eget penatibus odio fusce nulla. Mattis justo.
+            </p>
+            <p>
+                Mi rutrum lorem ridiculus non volutpat. Accumsan nisi nisi mollis fusce ut ante accumsan platea
+                habitant
+                pulvinar fermentum. Morbi ligula consequat nascetur vitae venenatis molestie suspendisse sapien.
+                Vestibulum faucibus hendrerit aenean. Nulla fames magna venenatis ligula, posuere congue ac primis
+                arcu.
+                Tincidunt phasellus consequat hac dolor sociosqu curae; vulputate aenean volutpat luctus. Et ligula
+                facilisi eleifend vestibulum! Nullam consequat suspendisse vivamus habitasse amet nascetur sed
+                sapien
+                sed dui. Pulvinar ullamcorper praesent commodo.
+            </p>
+        </div>
+
+        <div id="course-details-button-group" class="button-group clearfix">
+            <button class="btn btn-info float-left"><i class="fas fa-arrow-left"></i> Previous Section</button>
+            <button class="btn btn-info float-right">Next Section <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+
+{% endblock %}
+
+

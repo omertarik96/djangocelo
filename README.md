@@ -16,6 +16,10 @@ Custom bootstrap 4 theme is used for this project. Custom classes can be found i
 
 ![student-dashboard-view](https://i.imgur.com/14Lmdrb.png)
 
+## Course Details View
+
+![](02-course_details_view.gif)
+
 # Instructions <a name="instructions"></a>
 
 Make sure that you have Python3.6 installed in your computer. If not install it from [here](https://www.python.org/)
