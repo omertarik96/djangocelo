@@ -2,7 +2,18 @@
 
 This repo aims to replicate [UH CELO](https://dev.azure.com/celocsuh/CELO) and add more functionality using Python Django Framework.
 
+* TOC
+{:toc}
+
+## Resources
+Use these resources to learn more about the programming language and the framework that used in this project.
+- [Python 3]()
+- [Django 2.2.1]()
+- [Bootstrap 4]()
+
 # Current Views
+
+Custom bootstrap 4 theme is used for this project. Custom classes can be found in this path: ``static/theme.css`` 
 
 ## Student Dashboard
 
